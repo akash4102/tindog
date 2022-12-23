@@ -5,6 +5,7 @@ body{
 #title{
     background-color: #ff4c68;
     color: white;
+    /* position: aboslute; */
 }
 h1{
     font-family: 'Montserrat-black', sans-serif;
@@ -38,13 +39,23 @@ h1{
     margin: 5% 3% 5% 0;
 }
 .title-img{
+    /* padding: 7% 15%; */
     width: 50%;
-    padding-bottom: 5% ;
     transform: rotate(25deg);
+    position: relative;
+    left: 30%;
+}
+/* feature section */
+#features{
+    background-color: #fff;
+    position: relative;
+}
+h2{
+    font-family: "Montseerrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-
-/* feature section */
 h3{
     font-family: "Montserrat-Bold";
     font-size: 1.5rem;
@@ -66,4 +77,81 @@ h3{
 .f-desc{
     text-align: center;
     margin: 2% auto;
+}
+
+/* testrimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+.cta-container{
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-desc{
+    color: #fff;
+    font-family: 'Montserrat-black';
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#footer{
+    background-color: #fff;
+
+}
+.social-link{
+    padding-bottom:2% ;
+}
+.social-icon{
+    padding-left: 2%;
+    color: black;
+}
+
+@media screen and (max-width: 1270px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+    }
 }
